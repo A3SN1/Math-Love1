@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="icon" type="image/png" href="index.jpg">
+		<style type="text/css">
+			#game{
+				background-color: rgb(255, 247, 135);
+				width:400px;
+				height: 200px;
+				padding: 20px;
+				font-family: Arial;
+				border: solid;
+				display: inline;
+			}
+			label{
+				font-size: 25px;
+				
+			}
+			input{
+				height: 30px;
+
+			}
+			li{
+			display: inline;
+		}
+		a:hover{
+			background-color: rgb(255, 238, 0);
+			color: black;
+		}
+		.navbar{
+			background-color: black;
+			padding: 10px
+			}
+		a{
+			text-decoration: none;
+			color: white;
+			padding: 10px;
+			font-size: 20px;
+			}
+		body{
+			background-color:rgb(218, 247, 166);
+		}
+		.login{
+			float: right;
+		}button{
+				background-color: orange;
+				font-size: 30px;
+				color:red;
+				margin-left: 150px
+			}
+			.class1{
+				width: 40%;
+				float: left;
+			}
+</style>
+</head>
+<body>
+<ul class="navbar">
+	<li><a href="index.html"><img src="index.jpg" style="height: 100px;"></a></li>
+	<li><a href="Perimeter and Area.html">Perimeter and Area</a></li>
+	<li><a href="Triangle Angles.html">Triangle Angles</a></li>
+	<li><a href="Squares.html">Squares and Cubes</a></li>
+	<li class="login"><a href="Login.html">Login</a></li>
+	<li class="login"><a href="Register1.html">Register</a></li>
+	</ul>
+	<div style="width: 100%;">
+	<div class="class1">
+<img src="index.jpg" style="float: center; text-align: center;">
+</div>
+	<div class="class1" id="game">
+	<form method="post" action="index.html">
+	<label>Name</label>
+	<br>
+	<input type="text" name="name" placeholder="Your Username">
+	<br>
+	<label>Password</label>
+	<br>
+	<input type="password" name="password" placeholder="Password">
+	<br>
+	<button>Done</button>
+</form>
+</div>
+</div>
+</body>
+</html>
